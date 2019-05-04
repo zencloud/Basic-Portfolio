@@ -11,6 +11,8 @@ body, html {
     background-image: url("../IMGS/background_main.png");
 }
 
+
+/* Misc Element Styles */
 a {
     color: #34495e;
     text-decoration: none;
@@ -26,6 +28,7 @@ hr {
     background-color: #c9d2d4;
     margin-bottom: 15px;
 }
+
 .textSpanBold {
     font-weight: bold;
 }
@@ -80,7 +83,6 @@ hr {
     padding: 0px 10px 0px 10px;
 }
 
-
 .pageHeaderText {
     margin: 10px;
     font-size: 35px;
@@ -108,32 +110,18 @@ hr {
     line-height: 22pt;
 }
 
+/* Image Styling */
+
+.imgPortfolio {
+    position: relative;
+    margin: 10px;
+}
+
 .imgProfile {
     width: 200px;
     height: 200px;
     float: left;
     margin-right: 15px;
-}
-
-.contentBodyContainer {
-    padding-top: 15px;
-    position: relative;
-    width: 100%;
-}
-
-.contentHeaderCell {
-    padding-top: 60px;
-    position: relative;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    float: left;
-}
-
-.contentBodyText {
-    font-size: 22px;
-    font-weight: 300;
-    color: #7e8c8d
 }
 
 /* Locked Footer Div (Sticky Footer) */
@@ -149,13 +137,9 @@ hr {
     line-height: 50px;
 }
 
+/* Push down enough room for footer space, includes border height */
 .footerPush {
   height: 58px;
-}
-
-.imgPortfolio {
-    position: relative;
-    margin: 10px;
 }
 
 /* Form Styling */
