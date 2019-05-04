@@ -19,47 +19,41 @@
 
 <body>
     <!-- Main Container-->
-    <div class="mainContainer">
+    <section class="mainContainer">
 
         <!-- Main Navigation Bar -->
-        <div class="navContainer">
+        <header class="navContainer">
             <div class="navCell">
                 <div class="navCellName">Michael.<span class="textSpanBold">Ryan</span></div>
-                <nav>
-                    <div class="navCellText">
-                            <i class="material-icons">account_circle</i> <a href="index.html">About Me</a> <span class="navCellSpacer"> | </span>
+                    <nav class="navCellText">
+                        <i class="material-icons">account_circle</i> <a href="index.html">About Me</a> <span class="navCellSpacer"> | </span>
                             <i class="material-icons">library_books</i> <a href="portfolio.html">Portfolio</a> <span class="navCellSpacer"> | </span>
-                            <i class="material-icons">email</i> <a href="contact.html">Contact Me</a>
-                    </div>
-                </nav>
+                        <i class="material-icons">email</i> <a href="contact.html">Contact Me</a>
+                    </nav>
             </div>
-        </div>
+        </header>
         <!-- END Main Navigation Bar -->
 
         <!-- Main Content -->
-        <div class="contentContainer">
-            <div class="contentIntroTextCell">
+        <section class="contentContainer">
 
-                <header>
-                    <span class="pageHeaderText">Contact Me</span>
-                </header>
-
+                <span class="pageHeaderText">Contact Me</span>
                 <hr>
 
+                <!-- Contact Form -->
                 <form name="ContactSubmitForm">
                     Name:<br>
-                    <input class="inputTextField" type="text" name="firstname" value="Person Smith"><br>
+                        <input class="inputTextField" type="text" name="firstname" value="Person Smith"><br>
                     Contact Email:<br>
-                    <input class="inputTextField" type="text" name="lastname" value="example@gmail.com"><br>
+                        <input class="inputTextField" type="text" name="lastname" value="example@gmail.com"><br>
                     Message:<br>
-                    <textarea class="inputTextArea"></textarea><br>
+                        <textarea class="inputTextArea"></textarea><br>
                     <input class="inputButtonSubmit" type="submit" value="SUBMIT INFORMATION">
-                  </form>
-            </div>
+                </form>
 
-        </div>
+        </section>
         <div class="footerPush"></div>
-    </div>
+    </section>
 
     <!-- Sticky Footer -->
     <footer class="footerMain">© 2019 Michael Ryan | All Rights Reserved</footer>
